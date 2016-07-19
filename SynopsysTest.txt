@@ -1,0 +1,32 @@
+# problem A
+Analyze the time complexity of following alrotithm
+
+Input n
+m = n^2 + 4n + 13
+i = 1
+while (i < m)
+{
+    i = i + 0.45
+    j = 1
+    while(j < m * m)
+    {
+        j = j * 3.2
+    }
+}
+Output j
+
+
+# problem B
+給定一個有向圖 (V, E)
+定義 degree(V_i) = max(V_j1, V_j2, ..., V_jn) + 1 (V_j1, V_j2, ... V_jn 代表所有連向 V_i 的點)
+(1) 給定一個演算法求出圖上所有點的 degree
+(2) 時間複雜度為何
+
+
+# problem C
+平面上有 N 個點，給你這 N 個點的座標
+現在若給定一個長方形，可以簡單的用 O(N) 的時間複雜度算出有多少個點在正方形內
+如果先給你做一些前處理，來加速"找出幾個點在某個長方形內"這個過程
+(1) 設計一個演算法
+(2) "找出幾個點在某個長方形內"的時間複雜度為何
+(3) 空間複雜度為何
